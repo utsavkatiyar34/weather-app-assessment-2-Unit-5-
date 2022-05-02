@@ -1,0 +1,24 @@
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <title>Weather app</title>
+    <link href="style.css" rel="stylesheet" type="text/css" />
+  </head>
+  <body style="background-color:#f0f0f0">
+    <div class="head">
+        <h1>Weather App</h1>
+    </div>
+    <div class="menu">
+        <input class="inp" id="home" type="button" value="Home"/>
+        <input class="inp1" id="addyInput" type="text" placeholder="Type City Name" />
+        <input class="inp2" id="searc" type="button" value="Search" onclick="getData()"/>
+    </div>
+    <div class="new">
+    <div id="icon" class="icn"></div>
+    <div id="weather"class="map"></div>
+    <div id="searched_data" class="data"></div>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
